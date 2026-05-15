@@ -1,4 +1,5 @@
 import type { ListingItem, DetailItem } from "../types";
+import { withBase } from "./paths";
 
 function formatDate(dateValue: string | Date | undefined): string | undefined {
     if (!dateValue) return undefined;
@@ -19,6 +20,9 @@ export function getListingItem(entry: any, collection?: string): ListingItem {
         tags: d.tags || [],
         externalUrl: d.external_url,
         image: d.image,
+        badge: d.contribution_label,
+        featured: d.featured === true,
+        collection,
     };
 }
 
@@ -27,6 +31,6 @@ export function getDetailItem(entry: any, collection: string): DetailItem {
     
     return {
         ...listing,
-        backHref: collection === 'posts' ? '/posts' : `/${collection}`,
+        backHref: collection === 'posts' ? withBase('/posts') : withBase(`/${collection}`),
     };
 }

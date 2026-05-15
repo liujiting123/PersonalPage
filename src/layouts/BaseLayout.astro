@@ -12,6 +12,7 @@ import "@fontsource/jetbrains-mono/400.css";
 import "@fontsource/jetbrains-mono/500.css";
 import "katex/dist/katex.min.css";
 import "../styles/global.css";
+import { withBase } from "../utils/paths";
 
 const themeLightKey = (THEME_CONFIG.themeLight.startsWith('light_') ? THEME_CONFIG.themeLight : `light_${THEME_CONFIG.themeLight}`) as keyof typeof THEMES;
 const themeDarkKey = (THEME_CONFIG.themeDark.startsWith('dark_') ? THEME_CONFIG.themeDark : `dark_${THEME_CONFIG.themeDark}`) as keyof typeof THEMES;
@@ -53,7 +54,7 @@ const jsonLd = {
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
         <link rel="icon" type="image/svg+xml" href={SITE.favicon} />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href={withBase("/favicon.ico")} sizes="any" />
         <meta name="generator" content={Astro.generator} />
 
         <!-- Robots / Indexing -->

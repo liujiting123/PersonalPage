@@ -1,28 +1,22 @@
 ---
-name: "Claude Shannon"
-avatar: "shannon.jpg"
-shortBio: "Mathematician and electrical engineer known as the 'Father of Information Theory'. Pioneer in digital computing and cryptography."
-institution: "MIT, Cambridge MA"
+name: "Jiting Liu"
+avatar: "images/jiting-avatar.jpg"
+shortBio: "Undergraduate researcher in spatially grounded VLA models and depth-aware perception."
+institution: "Sichuan Agricultural University"
 ---
 
-I am a mathematician and electrical engineer best known for founding **Information Theory**. My work in the late 1940s established the theoretical foundations of modern digital communications and computing.
+I am an undergraduate student majoring in **Mathematics** at **Sichuan Agricultural University**. My research focuses on **spatially grounded vision-language-action models** for robot manipulation, especially **depth-aware perception**, **3D scene understanding**, and **representation alignment** for embodied systems.
 
-## My Life
-
-Born in Petoskey, Michigan on April 30, 1916, I showed an early aptitude for engineering and mathematics. After studying at the University of Michigan, I completed my PhD at MIT where I famously applied Boolean algebra to electrical circuits. My master's thesis on relay switching circuits is considered one of the most important master's theses ever written.
-
-During World War, I worked at Bell Labs on fire control systems and cryptography, which led to my seminal work in information theory.
-
-## Current Work
-
-I continue to work on various problems at the intersection of mathematics, engineering, and computer science. My interests include artificial intelligence, pattern recognition, game theory, and the fundamental limits of computation.
-
-I also enjoy juggling, unicycling, and playing the clarinet - I even built a juggling machine!
+I have worked with **Associate Professor Bo Zhao** at **Shanghai Jiao Tong University** on embodied manipulation and spatial reasoning in VLA systems. I am currently an **HKU RIntern** working with **Professor Taku Komura** at **The University of Hong Kong** on **retargeting** and the alignment between data, action representations, and embodiment settings.
 
 ## Research Interests
 
-My research focus includes: **Information Theory**, **Cryptography**, **Digital Computing**, **Artificial Intelligence**, **Game Theory**, and **Switching Circuits**.
+- Spatially grounded vision-language-action models for manipulation
+- Depth-aware perception and 3D understanding for embodied learning
+- Retargeting and action representation alignment across embodiments
 
----
+## Selected Highlights
 
-*"I am a mathematician. I am interested in the fundamental limits on the rate at which information can be transmitted."*
+- Co-first author of **Evo-Depth**
+
+I built this site as a small record of my research journey. I plan to use it to share publications, projects, and future work in embodied intelligence.

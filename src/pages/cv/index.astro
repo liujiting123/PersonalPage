@@ -3,9 +3,10 @@ import { getEntry, render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Timeline from "../../components/ui/Timeline.astro";
 import { PAGES } from "../../config";
+import { withBase } from "../../utils/paths";
 
 if (PAGES.cv.isActive === false) {
-    return Astro.redirect("/404");
+    return Astro.redirect(withBase("/404"));
 }
 
 const cvEntry = await getEntry("cv", "cv");
@@ -30,7 +31,7 @@ const { name, title, experience = [], education = [] } = cvEntry.data;
             experience.length > 0 && (
                 <section class="section">
                     <h2 class="section-title border-b border-border pb-2">
-                        Professional Experience
+                        Research Experience
                     </h2>
                     <Timeline items={experience.map(exp => ({
                         title: exp.role,

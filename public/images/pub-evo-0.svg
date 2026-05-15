@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="56" y="56" width="688" height="488" rx="34" fill="#f5f3ff" fill-opacity="0.06" stroke="#c4b5fd" stroke-opacity="0.4"/>
+  <text x="102" y="108" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#ede9fe">Evo-0</text>
+  <g transform="translate(100 150)">
+    <rect width="252" height="172" rx="22" fill="#0f172a" stroke="#c4b5fd" stroke-opacity="0.45"/>
+    <circle cx="82" cy="84" r="26" fill="#a78bfa" fill-opacity="0.28"/>
+    <circle cx="170" cy="82" r="18" fill="#ddd6fe" fill-opacity="0.4"/>
+    <path d="M82 84 L170 82 L210 120" stroke="#ddd6fe" stroke-width="6" fill="none" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(420 150)">
+    <rect width="278" height="172" rx="22" fill="#0f172a" stroke="#c4b5fd" stroke-opacity="0.45"/>
+    <rect x="28" y="28" width="222" height="24" rx="12" fill="#ede9fe" fill-opacity="0.84"/>
+    <rect x="28" y="76" width="188" height="16" rx="8" fill="#ddd6fe" fill-opacity="0.45"/>
+    <rect x="28" y="108" width="208" height="16" rx="8" fill="#ddd6fe" fill-opacity="0.45"/>
+    <rect x="28" y="140" width="160" height="16" rx="8" fill="#ddd6fe" fill-opacity="0.45"/>
+  </g>
+  <g transform="translate(100 370)">
+    <rect width="598" height="112" rx="22" fill="#0f172a" stroke="#c4b5fd" stroke-opacity="0.35"/>
+    <path d="M48 72 Q108 18 168 68 T288 70 T408 66 T548 72" stroke="#c4b5fd" stroke-width="10" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -2,43 +2,43 @@ import type { PagesConfig } from "../types";
 
 export const PAGES: PagesConfig = {
     home: {
-        title: "About Me",
-        subtitle: "",
+        title: "About",
+        subtitle: "Undergraduate researcher in spatially grounded VLA models and depth-aware perception for robot manipulation.",
         isActive: true,
     },
     blog: {
         title: "Blog",
-        subtitle: "Thoughts on physics, philosophy, and music.",
-        isActive: true,
+        subtitle: "Notes, ideas, and occasional research reflections.",
+        isActive: false,
     },
     publications: {
         title: "Publications",
-        subtitle: "A collection of research papers and scientific articles.",
+        subtitle: "Selected work on spatially grounded VLA models, depth estimation, and embodied perception.",
         isActive: true,
     },
     talks: {
         title: "Talks & Presentations",
-        subtitle: "Public lectures, colloquia, and conference presentations.",
-        isActive: true,
+        subtitle: "Talks, presentations, and future speaking activities.",
+        isActive: false,
     },
     projects: {
-        title: "Code & Projects",
-        subtitle: "Open source contributions and technological experiments.",
-        isActive: true,
+        title: "Projects",
+        subtitle: "Selected research systems, tools, and experiments.",
+        isActive: false,
     },
     teaching: {
         title: "Teaching",
-        subtitle: "Academic courses and educational materials.",
-        isActive: true,
+        subtitle: "Courses, mentoring, and teaching-related work.",
+        isActive: false,
     },
     tags: {
         title: "Tags",
         subtitle: "Explore content by topic.",
-        isActive: true,
+        isActive: false,
     },
     cv: {
-        title: "Curriculum Vitae",
-        subtitle: "Academic and professional history.",
+        title: "CV",
+        subtitle: "Education, research experience, and technical skills.",
         isActive: true,
     },
 };

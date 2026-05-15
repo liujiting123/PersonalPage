@@ -11,13 +11,25 @@ interface Props {
     extraInput?: string;
     tags?: string[];
     externalUrl?: string;
+    image?: string;
+    badge?: string;
+    featured?: boolean;
+    collection?: string;
 }
 
-const { title, href, description, date, authors, extraInput, tags, externalUrl } = Astro.props;
+const { title, href, description, date, authors, extraInput, tags, externalUrl, image, badge, featured = false, collection } = Astro.props;
 ---
 
-<article class="card">
+<article class={`card${featured ? " card-featured" : ""}${image ? " card-has-image" : ""}${collection === "publications" ? " publication-card" : ""}`}>
+    {
+        image && (
+            <a href={href} class="card-image-link" aria-label={`Open ${title}`}>
+                <img src={image} alt={`Visual summary for ${title}`} class="card-image" loading="lazy" />
+            </a>
+        )
+    }
     <div class="card-content">
+        {badge && <span class="card-badge">{badge}</span>}
         <a href={href} class="card-title">{title}</a>
 
         <div class="card-meta">

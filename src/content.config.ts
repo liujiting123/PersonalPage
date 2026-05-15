@@ -13,6 +13,9 @@ const publications = defineCollection({
         image: z.string().optional(),
         description: z.string().optional(),
         tags: z.array(z.string()).optional(),
+        contribution_label: z.string().optional(),
+        priority: z.number().optional(),
+        featured: z.boolean().optional(),
     }),
 });
 
