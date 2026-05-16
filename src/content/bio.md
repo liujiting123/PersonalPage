@@ -5,9 +5,11 @@ shortBio: "Undergraduate researcher in Embodied AI, 3D Vision, and Multimodal Fo
 institution: "HKU RIntern"
 ---
 
-I am an undergraduate student majoring in **Mathematics** at **Sichuan Agricultural University**. My research focuses on **spatially grounded vision-language-action models** for robot manipulation, especially **depth-aware perception**, **3D scene understanding**, and **representation alignment** for embodied systems.
+Undergraduate researcher focusing on **Embodied AI**, **3D Vision**, and **Multimodal Foundation Models**.
 
-I have worked with **Associate Professor Bo Zhao** at **Shanghai Jiao Tong University** on embodied manipulation and spatial reasoning in VLA systems. I am currently an **HKU RIntern** working with **Professor Taku Komura** at **The University of Hong Kong** on **retargeting** and the alignment between data, action representations, and embodiment settings.
+My research aims to build **spatially grounded vision-language-action systems** for robotic manipulation, with emphasis on **depth-aware perception**, **3D scene understanding**, and **representation learning** for embodied intelligence.
+
+I have worked with **[Associate Professor Bo Zhao](https://www.bozhao.me/)** at **Shanghai Jiao Tong University** on embodied manipulation and spatial reasoning in VLA systems. I am currently an **HKU RIntern** working with **Professor Taku Komura** at **The University of Hong Kong** on **data retargeting** and aligning **action representations** with **embodiment constraints**.
 
 ## Research Interests
 
