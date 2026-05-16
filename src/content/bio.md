@@ -1,16 +1,9 @@
 ---
 name: "Jiting Liu"
 avatar: "images/jiting-avatar.jpg"
-shortBio: "Undergraduate researcher in spatially grounded VLA models and depth-aware perception."
+shortBio: "Undergraduate researcher in Embodied AI, 3D Vision, and Multimodal Foundation Models."
 institution: "HKU RIntern"
 ---
-
-<section class="news-banner" aria-label="News">
-  <p class="news-banner-label">News</p>
-  <p class="news-banner-text">
-    I am currently seeking <strong>PhD opportunities for Fall 2028 entry</strong> in <strong>Embodied AI</strong>, <strong>Spatial Intelligence</strong>, and <strong>Multimodal Learning</strong>.
-  </p>
-</section>
 
 I am an undergraduate student majoring in **Mathematics** at **Sichuan Agricultural University**. My research focuses on **spatially grounded vision-language-action models** for robot manipulation, especially **depth-aware perception**, **3D scene understanding**, and **representation alignment** for embodied systems.
 

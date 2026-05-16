@@ -12,6 +12,12 @@ const { Content: BioContent } = bioEntry
 
 <BaseLayout title={PAGES.home.title}>
 	<div class="container-narrow">
+		<section class="news-banner" aria-label="News">
+			<p class="news-banner-label">News</p>
+			<p class="news-banner-text">
+				I am currently seeking <strong>PhD opportunities for Fall 2028 entry</strong> in <strong>Embodied AI</strong>, <strong>Spatial Intelligence</strong>, and <strong>Multimodal Learning</strong>.
+			</p>
+		</section>
 		{
 			(PAGES.home.title || PAGES.home.subtitle) && (
 				<header class="page-header">

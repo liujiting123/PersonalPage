@@ -3,7 +3,7 @@ import type { PagesConfig } from "../types";
 export const PAGES: PagesConfig = {
     home: {
         title: "About",
-        subtitle: "Undergraduate researcher in spatially grounded VLA models and depth-aware perception for robot manipulation.",
+        subtitle: "Undergraduate researcher in Embodied AI, 3D Vision, and Multimodal Foundation Models.",
         isActive: true,
     },
     blog: {
