@@ -779,6 +779,57 @@ a:hover,
     margin: 2rem 0;
 }
 
+.news-banner {
+    margin: 0 0 1.5rem;
+    padding: 1.1rem 1.25rem;
+    border: 1px solid color-mix(in srgb, var(--accent) 36%, var(--border));
+    border-radius: 1rem;
+    background:
+        linear-gradient(135deg,
+            color-mix(in srgb, var(--accent) 12%, var(--surface)) 0%,
+            color-mix(in srgb, var(--accent) 4%, var(--surface)) 100%);
+    box-shadow: 0 14px 32px color-mix(in srgb, var(--accent) 10%, transparent);
+}
+
+.news-banner-label {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 0 0.75rem;
+    padding: 0.3rem 0.7rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--accent) 14%, transparent);
+    color: var(--accent);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.news-banner-text {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.75;
+    color: var(--foreground);
+    opacity: 0.98;
+}
+
+.news-banner-text strong {
+    color: var(--accent);
+    font-weight: 800;
+}
+
+@media (max-width: 640px) {
+    .news-banner {
+        padding: 1rem;
+        border-radius: 0.85rem;
+    }
+
+    .news-banner-text {
+        font-size: 0.95rem;
+        line-height: 1.7;
+    }
+}
+
 
 /* ===========================================
    SHARED COMPONENTS
